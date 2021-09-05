@@ -1,11 +1,10 @@
 def trio(x,y,z):
-    if x == 0 or y == 0 or z == 0:
-        print('Введите число не равное 0!!!')
+    if z == 0:
+        print('Введите С не равное 0!!!')
     else:
         while x<y or y == x:
              print(x, '<', y)
              x=x+z
-            # if x>y:
              continue
         print('Bingo!!!', x, '>', y)
 
